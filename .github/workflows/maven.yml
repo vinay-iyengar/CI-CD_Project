@@ -70,7 +70,7 @@ jobs:
       - name: Build and analyze
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=vineeth394_projectk
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=SanjanaKrishna_CI-CD_Project
 
   upload_artifact:
     # This job will also run on the self-hosted runner with the "staging" label.
