@@ -6,17 +6,17 @@
 
     <groupId>com.example</groupId>
     <artifactId>my-helloworld</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
     <packaging>war</packaging>
 <distributionManagement>
     <repository>
         <id>assignment</id>
         <name>assignment-libs-release</name>
-        <url>http://15.206.75.58:8082/artifactory/assignment-libs-release/</url>
+        <url>http://43.205.206.211:8082/artifactory/assignment-libs-release/</url>
     </repository>
 </distributionManagement>
 <properties>
-  <sonar.organization>vineeth394</sonar.organization>
+  <sonar.organization>sanjanakrishna</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 </properties>
          
