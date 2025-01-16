@@ -12,7 +12,7 @@
     <repository>
         <id>assignment</id>
         <name>assignment-libs-release</name>
-        <url>http://43.205.206.211:8082/artifactory/assignment-libs-release/</url>
+        <url>http://13.232.193.124:8082/artifactory/assignment-libs-release/</url>
     </repository>
 </distributionManagement>
 <properties>
